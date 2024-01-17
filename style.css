@@ -1,0 +1,58 @@
+* {
+    font-family: monospace;
+}
+
+#board, .boardInfo {
+    max-width: 500px;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+#start, .boardInfo {
+    font-size: 25px;
+}
+
+#txt1{
+    font-size: 25px;
+}
+#gameOver {
+    display: none
+}
+
+.boardInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#start {
+    display: flex;
+    background-color: brown;
+    border: 100;
+    color: rgb(183, 196, 196);
+    align-items: ce;
+    position: relative;
+    left: 1000px;
+    top: -60px;
+}
+
+#scordBoard {
+    display: inline-flex;
+    
+}
+
+.square {
+aspect-ratio: 1;
+}
+
+#emptySquare {
+    background-color: aquamarine;
+}
+
+.snakeSquare {
+    background-color: rgb(209, 138, 32);
+}
+
+.foodSquare {
+    background-color: blue;
+}
+
